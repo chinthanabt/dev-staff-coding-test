@@ -1,4 +1,4 @@
-package com.defstaff.coding.test.configuration.exceptionHandler;
+package com.defstaff.coding.exam.configuration.exceptionHandler;
 
 public class TradingException extends CustomException {
 

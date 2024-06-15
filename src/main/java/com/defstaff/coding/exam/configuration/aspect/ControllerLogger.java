@@ -1,4 +1,4 @@
-package com.defstaff.coding.test.configuration.aspect;
+package com.defstaff.coding.exam.configuration.aspect;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
@@ -20,7 +20,7 @@ import java.util.Arrays;
 @Component
 @Slf4j
 public class ControllerLogger {
-    @Pointcut("execution(* com.defstaff.coding.test.controller..*(..))")
+    @Pointcut("execution(* com.defstaff.coding.exam.controller..*(..))")
     private void logger() {
         throw new UnsupportedOperationException("");
     }

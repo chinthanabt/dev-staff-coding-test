@@ -1,10 +1,8 @@
-package com.defstaff.coding.test.repository;
+package com.defstaff.coding.exam.repository;
 
-import com.defstaff.coding.test.entity.Farm;
+import com.defstaff.coding.exam.entity.Farm;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import java.util.UUID;
 
 @Repository
 public interface FarmRepository extends JpaRepository<Farm, Long> {

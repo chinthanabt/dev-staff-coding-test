@@ -1,4 +1,4 @@
-package com.defstaff.coding.test.configuration;
+package com.defstaff.coding.exam.configuration;
 
 public class Constants {
     //API NAMES

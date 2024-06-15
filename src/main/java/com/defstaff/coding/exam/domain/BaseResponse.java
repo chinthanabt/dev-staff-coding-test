@@ -1,4 +1,4 @@
-package com.defstaff.coding.test.domain;
+package com.defstaff.coding.exam.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

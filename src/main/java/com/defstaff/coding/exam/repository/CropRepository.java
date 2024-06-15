@@ -1,11 +1,10 @@
-package com.defstaff.coding.test.repository;
+package com.defstaff.coding.exam.repository;
 
-import com.defstaff.coding.test.entity.Crop;
+import com.defstaff.coding.exam.entity.Crop;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.UUID;
 
 
 @Repository

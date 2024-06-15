@@ -1,4 +1,4 @@
-package com.defstaff.coding.test.constants;
+package com.defstaff.coding.exam.constants;
 
 public enum StatusCode {
     INTERNAL_SERVER_ERROR("99999","Internal Server Error."),

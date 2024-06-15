@@ -8,18 +8,11 @@
 		<version>3.2.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.defstaff.coding.test</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.defstaff.coding.exam</groupId>
+	<artifactId>farm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
-	<properties>
-		<java.version>17</java.version>
-		<sonar.host.url>http://localhost:9000</sonar.host.url>
-		<sonar.login>sqp_711ae022da6d46bc4510eb1ec3b455798023fee9</sonar.login>
-		<sonar.projectKey>devstaff-coding-test</sonar.projectKey>
-		<sonar.projectName>devstaff-coding-test</sonar.projectName>
-	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

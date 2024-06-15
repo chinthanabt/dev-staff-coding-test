@@ -1,10 +1,10 @@
-package com.defstaff.coding.test.controller;
+package com.defstaff.coding.exam.controller;
 
-import com.defstaff.coding.test.constants.StatusCode;
-import com.defstaff.coding.test.domain.BaseResponse;
-import com.defstaff.coding.test.domain.farm.CropDTO;
-import com.defstaff.coding.test.service.CropService;
-import com.defstaff.coding.test.utils.CropType;
+import com.defstaff.coding.exam.constants.StatusCode;
+import com.defstaff.coding.exam.domain.BaseResponse;
+import com.defstaff.coding.exam.domain.farm.CropDTO;
+import com.defstaff.coding.exam.service.CropService;
+import com.defstaff.coding.exam.utils.CropType;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

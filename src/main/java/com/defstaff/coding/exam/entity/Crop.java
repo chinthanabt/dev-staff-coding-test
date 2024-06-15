@@ -1,9 +1,7 @@
-package com.defstaff.coding.test.entity;
+package com.defstaff.coding.exam.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-
-import java.util.UUID;
 
 @Data
 @Entity

@@ -1,4 +1,4 @@
-package com.defstaff.coding.test.domain.farm;
+package com.defstaff.coding.exam.domain.farm;
 
 import lombok.Data;
 

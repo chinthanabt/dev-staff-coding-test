@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "f155dcb9-ed27-4095-9cf8-a3fd6451793a",
+		"name": "DEV-STAFF-CODING-TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4996595",
+		"_collection_link": "https://xl-super-app.postman.co/workspace/225948ba-f07f-4e96-b210-edeaee927ba2/collection/4996595-f155dcb9-ed27-4095-9cf8-a3fd6451793a?action=share&source=collection_link&creator=4996595"
+	},
+	"item": [
+		{
+			"name": "find-by-crop-type",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8847/farm/crop-type/CORN",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8847",
+					"path": [
+						"farm",
+						"crop-type",
+						"CORN"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find-by-farm-id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8847/farm/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8847",
+					"path": [
+						"farm",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "planted",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"type\": \"CORN\",\r\n  \"plantingArea\": 50.0,\r\n  \"expectedProduct\": 200.0,\r\n  \"farmId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8847/farm/planted",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8847",
+					"path": [
+						"farm",
+						"planted"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "harvested",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"type\": \"CORN\",\r\n  \"actualProduct\": 90.0,\r\n  \"farmId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8847/farm/harvested",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8847",
+					"path": [
+						"farm",
+						"harvested"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

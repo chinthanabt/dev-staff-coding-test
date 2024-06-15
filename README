@@ -1,0 +1,23 @@
+# Farm management
+This service handle portfolio management
+
+##  Technology Stack
++ Java 17
++ Spring
++ Hibernate / JPA
++ Spring Boot 3.2.4
++ H2 In Memory DB
++ Actuator health check
++ MVN
+
+
+
+## Step to Run
++ Download the project from github
++ import into preferred IDE
++ run Springboot application
++ Access the application using --> http://localhost:8847
++ execute /resources/test-data.sql file to insert the test data your DB
++ H2 db url --> http://localhost:8847/h2-console/
++ import DEV-STAFF-CODING-TEST.json to your postman and play
+

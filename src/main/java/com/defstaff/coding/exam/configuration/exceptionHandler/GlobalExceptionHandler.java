@@ -36,12 +36,4 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(customErrorDetails, HttpStatus.NOT_FOUND);
     }
 
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(TradingException.class)
-    public final ResponseEntity<Object> handleTradingException(TradingException ex, WebRequest request) {
-        log.error("Exception Caught" + "at handleAllException {} {}", ex.getMessage(), request, ex);
-        CustomErrorDetails customErrorDetails = CustomErrorDetails.
-            of(ex.getErrorCode(), ex.getMessage());
-        return new ResponseEntity<>(customErrorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
-    }
 }
